@@ -203,6 +203,54 @@ button.disabled:hover {
     position:relative;
     z-index:3;
 }
+
+.item-list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.item-list li {
+    width: 140px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    background: #181818;
+    box-sizing: border-box;
+}
+
+.item-list li img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.nikke-name {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 6px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.1;
+    text-align: center;
+    background: #222;
+    box-sizing: border-box;
+}
+
+#evaluating li.selected {
+    border-color: #ffcc00;
+}
 </style>
 </head>
 <body>
@@ -245,12 +293,32 @@ var myPicker = new picker.Picker({
 
 var pickerUI = new PickerUI(myPicker, {
     elements: {
-        pick: "#pick",
-        pass: "#pass",
-        undo: "#undo",
-        redo: "#redo",
-        evaluating: "#evaluating",
-        favorites: "#favorites"
+        pick: '#pick',
+        pass: '#pass',
+        undo: '#undo',
+        redo: '#redo',
+        evaluating: '#evaluating',
+        favorites: '#favorites'
+    },
+
+    getItemElem: function(item, settings) {
+        var card = $('<li></li>');
+
+        if (item.image) {
+            var image = $('<img>')
+                .attr('src', item.image)
+                .attr('alt', item.name);
+
+            card.append(image);
+        }
+
+        var name = $('<div></div>')
+            .addClass('nikke-name')
+            .text(item.name);
+
+        card.append(name);
+
+        return card;
     }
 });
 
