@@ -287,7 +287,12 @@ button.disabled:hover {
 
 var myPicker = new picker.Picker({
     items: items,
-    localStorageKey: 'nikke-favorite-picker-state'
+    localStorageKey: 'nikke-favorite-picker-state',
+
+    defaultSettings: {
+        minBatchSize: 2,
+        maxBatchSize: 6
+    }
 });
 
 var pickerUI = new PickerUI(myPicker, {
