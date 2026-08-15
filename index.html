@@ -433,9 +433,14 @@ var pickerUI = new PickerUI(myPicker, {
         .attr('src', item.image)
         .attr('alt', item.name);
 
-    if (item.imageScale) {
-        image.css('transform', 'scale(' + item.imageScale + ')');
-    }
+    var imageScale = item.imageScale || 1;
+    var imageX = item.imageX || '0%';
+    var imageY = item.imageY || '0%';
+
+    image.css(
+        'transform',
+        'translate(' + imageX + ', ' + imageY + ') scale(' + imageScale + ')'
+);
 
     imageWrap.append(image);
     card.append(imageWrap);
