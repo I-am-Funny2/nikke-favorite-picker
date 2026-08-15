@@ -7,16 +7,6 @@ body {
     padding: 10px;
 }
 
-a:link, a:visited {
-    color:#008;
-    font-weight:bold;
-    text-decoration:none;
-}
-
-a:active, a:hover {
-    color:#ACF;
-}
-
 button {
     font-family: inherit;
     cursor: pointer;
@@ -32,14 +22,11 @@ button:hover {
     background: #41414c;
 }
 
-button.disabled {
-    background:#DDD;
-    color:#888;
-    cursor:not-allowed;
-}
-
+button.disabled,
 button.disabled:hover {
-    background:#DDD;
+    background: #DDD;
+    color: #888;
+    cursor: not-allowed;
 }
 
 #container {
@@ -82,12 +69,13 @@ button.disabled:hover {
     margin-right: 10px;
 }
 
-#pick.disabled {
-    background: #ACF;
-}
-
 #pick:hover {
     background: #7185ff;
+}
+
+#pick.disabled,
+#pick.disabled:hover {
+    background: #ACF;
 }
 
 #evaluating, #buttons {
@@ -266,6 +254,8 @@ button.disabled:hover {
 
 .site-footer a {
     color: #bdbdc7;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .site-footer a:hover {
