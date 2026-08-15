@@ -74,38 +74,8 @@
 
 var myPicker = new picker.Picker({
     items: items,
-    localStorageKey: 'nikke-favorite-picker-state',
+    localStorageKey: 'nikke-character-ranker-state-v1',
     historyLength: 50,
-
-    modifyState: function(state) {
-        state.settings = state.settings || {};
-
-        if (state.settings.maxBatchSize !== 8) {
-            state.settings.maxBatchSize = 8;
-
-            /*
-             * Rebuild the current batch using the new maximum
-             * without resetting ranking progress.
-             */
-            if (state.evaluating && state.current && state.evaluating.length > 0) {
-                Array.prototype.unshift.apply(state.current, state.evaluating);
-
-                var currentSize =
-                    state.current.length +
-                    (state.survived ? state.survived.length : 0);
-
-                var batchSize = Math.max(
-                    2,
-                    state.settings.minBatchSize || 2,
-                    Math.min(8, Math.ceil(currentSize / 5))
-                );
-
-                state.evaluating = state.current.splice(0, batchSize);
-            }
-        }
-
-        return state;
-    },
 
     defaultSettings: {
         minBatchSize: 2,
