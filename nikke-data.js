@@ -8,4 +8,10 @@ var items = [
     {id: 'poli', name: 'Poli', image: 'images/nikke/fullbody/poli.png'},
     {id: 'miranda', name: 'Miranda', image: 'images/nikke/fullbody/miranda.png'},
     {id: 'd', name: 'D', image: 'images/nikke/fullbody/d.png'}
+
+    {id: 'belorta', name: 'Belorta', image: 'images/nikke/fullbody/belorta.png'},
+    {id: 'mica', name: 'Mica', image: 'images/nikke/fullbody/mica.png'},
+    {id: 'brid', name: 'Brid', image: 'images/nikke/fullbody/brid.png'},
+    {id: 'soline', name: 'Soline', image: 'images/nikke/fullbody/soline.png'},
+    {id: 'diesel', name: 'Diesel', image: 'images/nikke/fullbody/diesel.png'}
 ];
