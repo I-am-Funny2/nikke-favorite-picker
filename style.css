@@ -30,11 +30,9 @@ button.disabled:hover {
 }
 
 #container {
-    position:relative;
-    margin-left:-10px;
-    margin-right:-10px;
-    padding:10px;
-    overflow:hidden;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 10px;
 }
 
 @media (min-width: 1024px) {
@@ -228,7 +226,6 @@ button.disabled:hover {
 }
 
 .site-footer {
-    clear: both;
     max-width: 900px;
     margin: 40px auto 10px;
     padding: 18px 16px 0;
