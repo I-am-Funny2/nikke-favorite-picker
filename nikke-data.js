@@ -11,7 +11,7 @@ var items = [
 
     {id: 'belorta', name: 'Belorta', image: 'images/nikke/fullbody/belorta.png'},
     {id: 'mica', name: 'Mica', image: 'images/nikke/fullbody/mica.png'},
-    {id: 'brid', name: 'Brid', image: 'images/nikke/fullbody/brid.png'},
+    {id: 'brid', name: 'Brid', image: 'images/nikke/fullbody/brid.png', imageScale: 1.28},
     {id: 'soline', name: 'Soline', image: 'images/nikke/fullbody/soline.png'},
     {id: 'diesel', name: 'Diesel', image: 'images/nikke/fullbody/diesel.png'},
 
@@ -19,7 +19,7 @@ var items = [
     {id: 'liter', name: 'Liter', image: 'images/nikke/fullbody/liter.png'},
     {id: 'emma', name: 'Emma', image: 'images/nikke/fullbody/emma.png'},
     {id: 'vesti', name: 'Vesti', image: 'images/nikke/fullbody/vesti.png'},
-    {id: 'eunhwa', name: 'Eunhwa', image: 'images/nikke/fullbody/eunhwa.png'},
+    {id: 'eunhwa', name: 'Eunhwa', image: 'images/nikke/fullbody/eunhwa.png', imageScale: 1.08},
 
     {id: 'laplace', name: 'Laplace', image: 'images/nikke/fullbody/laplace.png'},
     {id: 'drake', name: 'Drake', image: 'images/nikke/fullbody/drake.png'},
@@ -32,7 +32,7 @@ var items = [
     {id: 'mary', name: 'Mary', image: 'images/nikke/fullbody/mary.png'},
     {id: 'pepper', name: 'Pepper', image: 'images/nikke/fullbody/pepper.png'},
     {id: 'mary-bay-goddess', name: 'Mary: Bay Goddess', image: 'images/nikke/fullbody/mary-bay-goddess.png'},
-    {id: 'sugar', name: 'Sugar', image: 'images/nikke/fullbody/sugar.png'},
+    {id: 'sugar', name: 'Sugar', image: 'images/nikke/fullbody/sugar.png', imageScale: 1.20},
     {id: 'milk', name: 'Milk', image: 'images/nikke/fullbody/milk.png'},
     {id: 'frima', name: 'Frima', image: 'images/nikke/fullbody/frima.png'},
     {id: 'julia', name: 'Julia', image: 'images/nikke/fullbody/julia.png'},
@@ -43,18 +43,18 @@ var items = [
     {id: 'yulha', name: 'Yulha', image: 'images/nikke/fullbody/yulha.png'},
     {id: 'admi', name: 'Admi', image: 'images/nikke/fullbody/admi.png'},
     {id: 'guillotine', name: 'Guillotine', image: 'images/nikke/fullbody/guillotine.png'},
-    {id: 'maiden', name: 'Maiden', image: 'images/nikke/fullbody/maiden.png'},
+    {id: 'maiden', name: 'Maiden', image: 'images/nikke/fullbody/maiden.png', imageScale: 1.28},
     {id: 'ludmilla', name: 'Ludmilla', image: 'images/nikke/fullbody/ludmilla.png'},
     {id: 'alice', name: 'Alice', image: 'images/nikke/fullbody/alice.png'},
     {id: 'neve', name: 'Neve', image: 'images/nikke/fullbody/neve.png'},
     {id: 'rupee', name: 'Rupee', image: 'images/nikke/fullbody/rupee.png'},
     {id: 'yan', name: 'Yan', image: 'images/nikke/fullbody/yan.png'},
     {id: 'dolla', name: 'Dolla', image: 'images/nikke/fullbody/dolla.png'},
-    {id: 'rupee-winter-shopper', name: 'Rupee: Winter Shopper', image: 'images/nikke/fullbody/rupee-winter-shopper.png'},
+    {id: 'rupee-winter-shopper', name: 'Rupee: Winter Shopper', image: 'images/nikke/fullbody/rupee-winter-shopper.png', imageScale: 1.22},
     {id: 'exia', name: 'Exia', image: 'images/nikke/fullbody/exia.png'},
     {id: 'novel', name: 'Novel', image: 'images/nikke/fullbody/novel.png'},
-    {id: 'snow-white', name: 'Snow White', image: 'images/nikke/fullbody/snow-white.png'},
-    {id: 'rapunzel', name: 'Rapunzel', image: 'images/nikke/fullbody/rapunzel.png'},
-    {id: 'scarlet', name: 'Scarlet', image: 'images/nikke/fullbody/scarlet.png'},
-    {id: 'harran', name: 'Harran', image: 'images/nikke/fullbody/harran.png'}
+    {id: 'snow-white', name: 'Snow White', image: 'images/nikke/fullbody/snow-white.png', imageScale: 1.40},
+    {id: 'rapunzel', name: 'Rapunzel', image: 'images/nikke/fullbody/rapunzel.png', imageScale: 1.24},
+    {id: 'scarlet', name: 'Scarlet', image: 'images/nikke/fullbody/scarlet.png', imageScale: 1.32},
+    {id: 'harran', name: 'Harran', image: 'images/nikke/fullbody/harran.png', imageScale: 1.27}
 ];
