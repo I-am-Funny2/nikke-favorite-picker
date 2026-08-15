@@ -140,5 +140,26 @@ var items = [
     {id: 'mihara-bonding-chain', name: 'Mihara: Bonding Chain', image: 'images/nikke/fullbody/mihara-bonding-chain.png', imageScale: 1.06, imageY: '7%'},
     {id: 'guillotine-winter-slayer', name: 'Guillotine: Winter Slayer', image: 'images/nikke/fullbody/guillotine-winter-slayer.png'},
     {id: 'maiden-ice-rose', name: 'Maiden: Ice Rose', image: 'images/nikke/fullbody/maiden-ice-rose.png', imageScale: 1.01},
-    {id: 'tove', name: 'Tove', image: 'images/nikke/fullbody/tove.png'}
+    {id: 'tove', name: 'Tove', image: 'images/nikke/fullbody/tove.png'},
+
+    {id: '2b', name: '2B', image: 'images/nikke/fullbody/2b.png'},
+    {id: 'a2', name: 'A2', image: 'images/nikke/fullbody/a2.png'},
+    {id: 'ada-wong', name: 'Ada Wong', image: 'images/nikke/fullbody/ada-wong.png'},
+    {id: 'ade-agent-bunny', name: 'Ade: Agent Bunny', image: 'images/nikke/fullbody/ade-agent-bunny.png'},
+    {id: 'arcana', name: 'Arcana', image: 'images/nikke/fullbody/arcana.png'},
+    {id: 'arcana-fortune-mate', name: 'Arcana: Fortune Mate', image: 'images/nikke/fullbody/arcana-fortune-mate.png'},
+    {id: 'ark-ranger-black', name: 'Ark Ranger Black', image: 'images/nikke/fullbody/ark-ranger-black.png'},
+    {id: 'asuka-shikinami-langley', name: 'Asuka Shikinami Langley', image: 'images/nikke/fullbody/asuka-shikinami-langley.png'},
+    {id: 'asuka-shikinami-langley-wille', name: 'Asuka Shikinami Langley: Wille', image: 'images/nikke/fullbody/asuka-shikinami-langley-wille.png'},
+    {id: 'avistar', name: 'Avistar', image: 'images/nikke/fullbody/avistar.png'},
+    {id: 'bay', name: 'Bay', image: 'images/nikke/fullbody/bay.png'},
+    {id: 'bready', name: 'Bready', image: 'images/nikke/fullbody/bready.png'},
+    {id: 'brid-silent-track', name: 'Brid: Silent Track', image: 'images/nikke/fullbody/brid-silent-track.png'},
+    {id: 'chime', name: 'Chime', image: 'images/nikke/fullbody/chime.png'},
+    {id: 'chisato-nishikigi', name: 'Chisato Nishikigi', image: 'images/nikke/fullbody/chisato-nishikigi.png'},
+    {id: 'cinderella', name: 'Cinderella', image: 'images/nikke/fullbody/cinderella.png'},
+    {id: 'cinderella-crystal-wave', name: 'Cinderella: Crystal Wave', image: 'images/nikke/fullbody/cinderella-crystal-wave.png'},
+    {id: 'claire-redfield', name: 'Claire Redfield', image: 'images/nikke/fullbody/claire-redfield.png'},
+    {id: 'clay', name: 'Clay', image: 'images/nikke/fullbody/clay.png'},
+    {id: 'crust', name: 'Crust', image: 'images/nikke/fullbody/crust.png'}
 ];
