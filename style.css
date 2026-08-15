@@ -160,10 +160,6 @@ button.disabled:hover {
     background:#CDF;
 }
 
-#evaluating li.selected {
-    border:3px solid #7AC;
-}
-
 #evaluating, #buttons {
     text-align:center;
     margin:auto;
