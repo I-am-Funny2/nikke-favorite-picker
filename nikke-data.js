@@ -7,7 +7,7 @@ var items = [
     {id: 'signal', name: 'Signal', image: 'images/nikke/fullbody/signal.png'},
     {id: 'poli', name: 'Poli', image: 'images/nikke/fullbody/poli.png'},
     {id: 'miranda', name: 'Miranda', image: 'images/nikke/fullbody/miranda.png'},
-    {id: 'd', name: 'D', image: 'images/nikke/fullbody/d.png'}
+    {id: 'd', name: 'D', image: 'images/nikke/fullbody/d.png'},
 
     {id: 'belorta', name: 'Belorta', image: 'images/nikke/fullbody/belorta.png'},
     {id: 'mica', name: 'Mica', image: 'images/nikke/fullbody/mica.png'},
