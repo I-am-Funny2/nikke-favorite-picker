@@ -5,7 +5,7 @@ var items = [
 
     {id: 'delta', name: 'Delta', image: 'images/nikke/fullbody/delta.png'},
     {id: 'signal', name: 'Signal', image: 'images/nikke/fullbody/signal.png', imageScale: 1.09, imageY: '-2%'},
-    {id: 'poli', name: 'Poli', image: 'images/nikke/fullbody/poli.png', imageX: '3%'},
+    {id: 'poli', name: 'Poli', image: 'images/nikke/fullbody/poli.png', imageX: '10%'},
     {id: 'miranda', name: 'Miranda', image: 'images/nikke/fullbody/miranda.png'},
     {id: 'd', name: 'D', image: 'images/nikke/fullbody/d.png'},
 
@@ -104,7 +104,7 @@ var items = [
     {id: 'ludmilla-winter-owner', name: 'Ludmilla: Winter Owner', image: 'images/nikke/fullbody/ludmilla-winter-owner.png', imageScale: 1.05, imageX: '6%', imageY: '-2%'},
     {id: 'alice-wonderland-bunny', name: 'Alice: Wonderland Bunny', image: 'images/nikke/fullbody/alice-wonderland-bunny.png'},
     {id: 'snow-white-innocent-days', name: 'Snow White: Innocent Days', image: 'images/nikke/fullbody/snow-white-innocent-days.png'},
-    {id: 'scarlet-black-shadow', name: 'Scarlet: Black Shadow', image: 'images/nikke/fullbody/scarlet-black-shadow.png'},
+    {id: 'scarlet-black-shadow', name: 'Scarlet: Black Shadow', image: 'images/nikke/fullbody/scarlet-black-shadow.png', imageScale: 1.05},
     {id: 'rapunzel-pure-grace', name: 'Rapunzel: Pure Grace', image: 'images/nikke/fullbody/rapunzel-pure-grace.png'},
     {id: 'ade', name: 'Ade', image: 'images/nikke/fullbody/ade.png', imageScale: 1.14, imageX: '3%', imageY: '-3%'},
     {id: 'privaty-unkind-maid', name: 'Privaty: Unkind Maid', image: 'images/nikke/fullbody/privaty-unkind-maid.png'},
@@ -163,7 +163,7 @@ var items = [
     {id: 'clay', name: 'Clay', image: 'images/nikke/fullbody/clay.png'},
     {id: 'crust', name: 'Crust', image: 'images/nikke/fullbody/crust.png'},
 
-    {id: 'dorothy-serendipity', name: 'Dorothy: Serendipity', image: 'images/nikke/fullbody/dorothy-serendipity.png', imageScale: 1.10},
+    {id: 'dorothy-serendipity', name: 'Dorothy: Serendipity', image: 'images/nikke/fullbody/dorothy-serendipity.png', imageScale: 1.10, imageX: '5%'},
     {id: 'elegg', name: 'Elegg', image: 'images/nikke/fullbody/elegg.png'},
     {id: 'elegg-boom-and-shock', name: 'Elegg: Boom and Shock', image: 'images/nikke/fullbody/elegg-boom-and-shock.png', imageScale: 1.05},
     {id: 'emilia', name: 'Emilia', image: 'images/nikke/fullbody/emilia.png', imageScale: 1.05},
@@ -199,9 +199,9 @@ var items = [
     {id: 'rouge', name: 'Rouge', image: 'images/nikke/fullbody/rouge.png', imageScale: 1.03},
     {id: 'sakura-bloom-in-summer', name: 'Sakura: Bloom in Summer', image: 'images/nikke/fullbody/sakura-bloom-in-summer.png', imageScale: 1.10},
     {id: 'sakura-suzuhara', name: 'Sakura Suzuhara', image: 'images/nikke/fullbody/sakura-suzuhara.png'},
-    {id: 'siren', name: 'Little Mermaid (Siren)', image: 'images/nikke/fullbody/siren.png', imageScale: 1.45},
+    {id: 'siren', name: 'Little Mermaid (Siren)', image: 'images/nikke/fullbody/siren.png', imageScale: 1.45, imageY: '5%'},
     {id: 'snow-crane', name: 'Snow Crane', image: 'images/nikke/fullbody/snow-crane.png', imageScale: 1.37},
-    {id: 'snow-white-heavy-arms', name: 'Snow White: Heavy Arms', image: 'images/nikke/fullbody/snow-white-heavy-arms.png', imageScale: 1.40, imageX: '-10%'},
+    {id: 'snow-white-heavy-arms', name: 'Snow White: Heavy Arms', image: 'images/nikke/fullbody/snow-white-heavy-arms.png', imageScale: 1.42, imageX: '-10%'},
     {id: 'sora', name: 'Sora', image: 'images/nikke/fullbody/sora.png'},
     {id: 'tia', name: 'Tia', image: 'images/nikke/fullbody/tia.png', imageScale: 1.05},
 ];
