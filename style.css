@@ -90,15 +90,6 @@ button.disabled:hover {
     background:#ACF;
 }
 
-.item-list li {
-    margin:0;
-    line-height:100px;
-    text-align:center;
-    position:relative;
-    vertical-align:top;
-    color:#000;
-}
-
 .item-list li span {
     display:inline-block;
     vertical-align:middle;
