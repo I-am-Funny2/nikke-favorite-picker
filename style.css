@@ -164,10 +164,6 @@ button.disabled:hover {
     background:#CDF;
 }
 
-.item-list.sorting li:hover {
-    background:#F7F7F7;
-}
-
 #evaluating li.selected {
     border:3px solid #7AC;
 }
