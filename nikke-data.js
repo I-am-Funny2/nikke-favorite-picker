@@ -55,7 +55,7 @@ var items = [
     {id: 'novel', name: 'Novel', image: 'images/nikke/fullbody/novel.png'},
     {id: 'snow-white', name: 'Snow White', image: 'images/nikke/fullbody/snow-white.png', imageScale: 1.55},
     {id: 'rapunzel', name: 'Rapunzel', image: 'images/nikke/fullbody/rapunzel.png', imageScale: 1.27},
-    {id: 'scarlet', name: 'Scarlet', image: 'images/nikke/fullbody/scarlet.png', imageScale: 1.40},
+    {id: 'scarlet', name: 'Scarlet', image: 'images/nikke/fullbody/scarlet.png', imageScale: 1.40, imageX: '4%'},
     {id: 'harran', name: 'Harran', image: 'images/nikke/fullbody/harran.png', imageScale: 1.29},
 
     {id: 'neon-blue-ocean', name: 'Neon: Blue Ocean', image: 'images/nikke/fullbody/neon-blue-ocean.png', imageScale: 1.28, imageX: '4%', imageY: '-5%'},
@@ -68,7 +68,7 @@ var items = [
     {id: 'folkwang', name: 'Folkwang', image: 'images/nikke/fullbody/folkwang.png'},
     {id: 'modernia', name: 'Modernia', image: 'images/nikke/fullbody/modernia.png', imageScale: 1.20},
     {id: 'nihilister', name: 'Nihilister', image: 'images/nikke/fullbody/nihilister.png', imageScale: 1.42},
-    {id: 'blanc', name: 'Blanc', image: 'images/nikke/fullbody/blanc.png', imageScale: 1.08},
+    {id: 'blanc', name: 'Blanc', image: 'images/nikke/fullbody/blanc.png'},
     {id: 'noir', name: 'Noir', image: 'images/nikke/fullbody/noir.png'},
     {id: 'rosanna', name: 'Rosanna', image: 'images/nikke/fullbody/rosanna.png'},
     {id: 'sakura', name: 'Sakura', image: 'images/nikke/fullbody/sakura.png'},
