@@ -331,6 +331,33 @@ body {
     font-weight: bold;
 }
 
+#filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin: 0 0 18px;
+    color: #ddd;
+    font-size: 14px;
+}
+
+#filters .filter-label {
+    font-weight: bold;
+    color: #fff;
+}
+
+#filters label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+#filters input[type="radio"] {
+    cursor: pointer;
+}
+
 #secondary h2 {
     color: #eeeeee;
 }
@@ -481,6 +508,25 @@ button:hover {
     <p id="progress"></p>
 </header>
 
+<div id="filters">
+    <span class="filter-label">Show:</span>
+
+    <label>
+        <input type="radio" name="rosterType" value="all" checked>
+        All
+    </label>
+
+    <label>
+        <input type="radio" name="rosterType" value="nikke">
+        NIKKE
+    </label>
+
+    <label>
+        <input type="radio" name="rosterType" value="collab">
+        Collab
+    </label>
+</div>
+
 <div id="container">
 
 <div id="picking">
@@ -515,9 +561,38 @@ var myPicker = new picker.Picker({
     localStorageKey: 'nikke-favorite-picker-state',
     historyLength: 50,
 
+    shouldIncludeItem: function(identifier, settings) {
+        var item = null;
+        var i;
+
+        for (i = 0; i < items.length; i++) {
+            if (items[i].id === identifier) {
+                item = items[i];
+                break;
+            }
+        }
+
+        if (!item) {
+            return false;
+        }
+
+        var rosterType = (settings && settings.rosterType) || 'all';
+
+        if (rosterType === 'collab') {
+            return !!item.collab;
+        }
+
+        if (rosterType === 'nikke') {
+            return !item.collab;
+        }
+
+        return true;
+    },
+
     defaultSettings: {
         minBatchSize: 2,
-        maxBatchSize: 8
+        maxBatchSize: 8,
+        rosterType: 'all'
     }
 });
 
@@ -529,8 +604,11 @@ var pickerUI = new PickerUI(myPicker, {
         redo: '#redo',
         reset: '#reset',
         evaluating: '#evaluating',
-        favorites: '#favorites'
-    },
+        favorites: '#favorites',
+        settings: {
+            rosterType: 'input[name="rosterType"]'
+    }
+},
 
     onUpdate: function() {
     var ranked = this.picker.getFavorites().length;
