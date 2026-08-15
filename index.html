@@ -656,14 +656,15 @@ if (item.voice) {
         playCharacterVoice(item.voice, $(this));
     });
 
-    imageWrap.append(voiceButton);
+        imageWrap.append(voiceButton);
 }
 
 card.append(imageWrap);
+}
 
-        var name = $('<div></div>')
-            .addClass('nikke-name')
-            .text(item.name);
+var name = $('<div></div>')
+    .addClass('nikke-name')
+    .text(item.name);
 
         card.append(name);
 
