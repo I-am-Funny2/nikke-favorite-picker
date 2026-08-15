@@ -204,4 +204,8 @@ var items = [
     {id: 'snow-white-heavy-arms', name: 'Snow White: Heavy Arms', image: 'images/nikke/fullbody/snow-white-heavy-arms.png', imageScale: 1.42, imageX: '-10%'},
     {id: 'sora', name: 'Sora', image: 'images/nikke/fullbody/sora.png'},
     {id: 'tia', name: 'Tia', image: 'images/nikke/fullbody/tia.png', imageScale: 1.05},
+
+    {id: 'takina-inoue', name: 'Takina Inoue', image: 'images/nikke/fullbody/takina-inoue.png'},
+    {id: 'trony', name: 'Trony', image: 'images/nikke/fullbody/trony.png'},
+    {id: 'velvet', name: 'Velvet', image: 'images/nikke/fullbody/velvet.png'}
 ];
