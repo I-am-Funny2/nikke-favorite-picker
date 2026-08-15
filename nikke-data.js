@@ -123,7 +123,7 @@ var items = [
 
     {id: 'rapi-red-hood', name: 'Rapi: Red Hood', image: 'images/nikke/fullbody/rapi-red-hood.png'},
     {id: 'anis-star', name: 'Anis: Star', image: 'images/nikke/fullbody/anis-star.png', imageScale: 1.08},
-    {id: 'neon-vision-eye', name: 'Neon: Vision Eye', image: 'images/nikke/fullbody/neon-vision-eye.png', imageScale: 1.50, imageY: '-2%'},
+    {id: 'neon-vision-eye', name: 'Neon: Vision Eye', image: 'images/nikke/fullbody/neon-vision-eye.png', imageScale: 1.50, imageY: '1%'},
     {id: 'delta-ninja-thief', name: 'Delta: Ninja Thief', image: 'images/nikke/fullbody/delta-ninja-thief.png', imageScale: 1.20, imageX: '4%', imageY: '-2%'},
     {id: 'quiry', name: 'Quiry', image: 'images/nikke/fullbody/quiry.png'},
     {id: 'k', name: 'K', image: 'images/nikke/fullbody/k.png'},
