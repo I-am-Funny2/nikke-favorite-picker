@@ -68,30 +68,33 @@ button.disabled:hover {
     background: #ACF;
 }
 
-#evaluating, #buttons {
-    text-align:center;
-    margin:auto;
-}
-
-#evaluating li.notice {
-    width:auto;
-    height:auto;
-    max-width:260px;
-    margin:auto;
-    background:#F7F7F7;
-    border-radius:10px;
-    padding:30px 30px;
-    color:#000;
-    text-align:center;
-    line-height:1.4;
-    cursor:auto;
-    font-size:10pt;
+#evaluating {
+    margin: auto;
 }
 
 #buttons {
-    margin-top:30px;
-    position:relative;
-    z-index:3;
+    margin: 30px auto 0;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+}
+
+#evaluating li.notice {
+    width: auto;
+    height: auto;
+    max-width: 260px;
+    margin: auto;
+    padding: 24px 28px;
+
+    background: #181818;
+    color: #eeeeee;
+    border: 1px solid #34343d;
+    border-radius: 10px;
+
+    text-align: center;
+    line-height: 1.4;
+    cursor: auto;
+    font-size: 10pt;
 }
 
 .item-list {
