@@ -90,10 +90,6 @@ button.disabled:hover {
     background:#ACF;
 }
 
-.item-list {
-    line-height:100px;
-}
-
 .item-list li {
     margin:0;
     line-height:100px;
