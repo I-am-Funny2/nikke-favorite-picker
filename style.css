@@ -103,12 +103,6 @@ button.disabled:hover {
     color:#000;
 }
 
-.item-list li img {
-    vertical-align:middle;
-    max-height:100%;
-    max-width:100%;
-}
-
 .item-list li span {
     display:inline-block;
     vertical-align:middle;
