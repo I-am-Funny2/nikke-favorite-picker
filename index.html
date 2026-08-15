@@ -591,6 +591,8 @@ var pickerUI = new PickerUI(myPicker, {
     },
 
     onUpdate: function() {
+    stopCharacterVoice();
+
     var ranked = this.picker.getFavorites().length;
     var total = items.length;
 
