@@ -239,6 +239,10 @@ button.disabled:hover {
     filter: drop-shadow(0 10px 14px rgba(0, 0, 0, 0.6));
 }
 
+#evaluating li:hover {
+    border-color: #CDF;
+}
+
 #evaluating li.selected {
     border-color: #ffcc00;
 }
