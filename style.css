@@ -90,16 +90,6 @@ button.disabled:hover {
     background:#ACF;
 }
 
-.item-list li span {
-    display:inline-block;
-    vertical-align:middle;
-    line-height:1.2;
-}
-
-#evaluating li {
-    cursor:pointer;
-}
-
 #favorites li {
     cursor:default;
 }
@@ -216,10 +206,6 @@ button.disabled:hover {
     text-align: center;
     background: #222;
     box-sizing: border-box;
-}
-
-#evaluating li img {
-    transition: transform 0.15s ease, filter 0.15s ease;
 }
 
 #evaluating li:hover img {
@@ -365,18 +351,15 @@ button:hover {
 
 #favorites {
     gap: 8px;
+    counter-reset: favorite-rank;
 }
 
 #favorites li {
     width: 120px;
     height: 200px;
     border-radius: 8px;
-}
-
-#favorites li img {
-    height: 100%;
-    object-fit: contain;
-    object-position: center bottom;
+    counter-increment: favorite-rank;
+    position: relative;
 }
 
 #favorites .nikke-name {
@@ -390,15 +373,6 @@ button:hover {
 }
 
 /* Ranking number on Found Favorites cards */
-#favorites {
-    counter-reset: favorite-rank;
-}
-
-#favorites li {
-    counter-increment: favorite-rank;
-    position: relative;
-}
-
 #favorites li::before {
     content: "#" counter(favorite-rank);
     position: absolute;
