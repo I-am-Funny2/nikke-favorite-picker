@@ -226,18 +226,25 @@ button.disabled:hover {
     box-sizing: border-box;
 }
 
-.item-list li img {
+.nikke-image-wrap {
     width: 100%;
     height: 290px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background:
+        radial-gradient(circle at center 65%, #303030 0%, #181818 50%, #0d0d0d 100%);
+}
+
+.item-list li img {
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     object-position: center bottom;
     display: block;
-    padding: 0;
-    box-sizing: border-box;
-
-    background:
-        radial-gradient(circle at center 65%, #303030 0%, #181818 50%, #0d0d0d 100%);
-
+    transform-origin: center bottom;
+    transition: transform 0.15s ease, filter 0.15s ease;
     filter: drop-shadow(0 8px 10px rgba(0, 0, 0, 0.45));
 }
 
@@ -261,7 +268,6 @@ button.disabled:hover {
 }
 
 #evaluating li:hover img {
-    transform: scale(1.03);
     filter: drop-shadow(0 10px 14px rgba(0, 0, 0, 0.6));
 }
 
@@ -416,12 +422,20 @@ var pickerUI = new PickerUI(myPicker, {
         var card = $('<li></li>');
 
         if (item.image) {
-            var image = $('<img>')
-                .attr('src', item.image)
-                .attr('alt', item.name);
+    var imageWrap = $('<div></div>')
+        .addClass('nikke-image-wrap');
 
-            card.append(image);
-        }
+    var image = $('<img>')
+        .attr('src', item.image)
+        .attr('alt', item.name);
+
+    if (item.imageScale) {
+        image.css('transform', 'scale(' + item.imageScale + ')');
+    }
+
+    imageWrap.append(image);
+    card.append(imageWrap);
+}
 
         var name = $('<div></div>')
             .addClass('nikke-name')
