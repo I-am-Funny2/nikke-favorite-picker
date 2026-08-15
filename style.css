@@ -117,10 +117,6 @@ button.disabled:hover {
     cursor:default;
 }
 
-.item-list li:hover {
-    background:#CDF;
-}
-
 #evaluating, #buttons {
     text-align:center;
     margin:auto;
