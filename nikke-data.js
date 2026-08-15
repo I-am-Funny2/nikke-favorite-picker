@@ -23,7 +23,7 @@ var items = [
 
     {id: 'laplace', name: 'Laplace', image: 'images/nikke/fullbody/laplace.png'},
     {id: 'drake', name: 'Drake', image: 'images/nikke/fullbody/drake.png'},
-    {id: 'maxwell', name: 'Maxwell', image: 'images/nikke/fullbody/maxwell.png'},
+    {id: 'maxwell', name: 'Maxwell', image: 'images/nikke/fullbody/maxwell.png', imageScale: 1.25},
     {id: 'crow', name: 'Crow', image: 'images/nikke/fullbody/crow.png'},
     {id: 'jackal', name: 'Jackal', image: 'images/nikke/fullbody/jackal.png'},
     {id: 'viper', name: 'Viper', image: 'images/nikke/fullbody/viper.png'},
