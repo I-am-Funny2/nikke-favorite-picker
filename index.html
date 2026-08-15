@@ -359,6 +359,47 @@ button:hover {
     background: #41414c;
 }
 
+/* Voice playback button */
+.voice-button {
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+    z-index: 6;
+
+    width: 32px;
+    height: 32px;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.78);
+    color: #ffffff;
+
+    font-size: 16px;
+    line-height: 1;
+
+    cursor: pointer;
+}
+
+.voice-button:hover {
+    background: rgba(70, 70, 80, 0.95);
+}
+
+.voice-button.playing {
+    background: #536dfe;
+}
+
+#favorites .voice-button {
+    width: 24px;
+    height: 24px;
+    left: 5px;
+    bottom: 5px;
+    font-size: 12px;
+}
+
 #pick {
     background: #536dfe;
 }
@@ -595,8 +636,30 @@ if (item.collab) {
     imageWrap.append(collabBadge);
 }
 
-card.append(imageWrap);
+if (item.voice) {
+    var voiceButton = $('<button></button>')
+        .addClass('voice-button')
+        .attr('type', 'button')
+        .attr('title', 'Play voice')
+        .attr('aria-label', 'Play ' + item.name + ' voice')
+        .text('🔊');
+
+    voiceButton.on('mousedown dblclick', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+    });
+
+    voiceButton.on('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        playCharacterVoice(item.voice, $(this));
+    });
+
+    imageWrap.append(voiceButton);
 }
+
+card.append(imageWrap);
 
         var name = $('<div></div>')
             .addClass('nikke-name')
@@ -609,6 +672,67 @@ card.append(imageWrap);
 });
 
 pickerUI.initialize();
+
+var activeVoiceAudio = null;
+var activeVoiceButton = null;
+var activeVoiceSrc = null;
+
+function stopCharacterVoice() {
+    if (activeVoiceAudio) {
+        activeVoiceAudio.pause();
+        activeVoiceAudio.currentTime = 0;
+    }
+
+    if (activeVoiceButton) {
+        activeVoiceButton.removeClass('playing');
+    }
+
+    activeVoiceAudio = null;
+    activeVoiceButton = null;
+    activeVoiceSrc = null;
+}
+
+function playCharacterVoice(src, button) {
+    /* Clicking the currently playing voice stops it */
+    if (
+        activeVoiceAudio &&
+        activeVoiceSrc === src &&
+        !activeVoiceAudio.paused
+    ) {
+        stopCharacterVoice();
+        return;
+    }
+
+    /* Stop any previous character */
+    stopCharacterVoice();
+
+    var audio = new Audio(src);
+
+    activeVoiceAudio = audio;
+    activeVoiceButton = button;
+    activeVoiceSrc = src;
+
+    button.addClass('playing');
+
+    audio.addEventListener('ended', function() {
+        if (activeVoiceAudio === audio) {
+            stopCharacterVoice();
+        }
+    });
+
+    audio.addEventListener('error', function() {
+        if (activeVoiceAudio === audio) {
+            stopCharacterVoice();
+        }
+
+        console.error('Could not play voice:', src);
+    });
+
+    audio.play().catch(function(error) {
+        stopCharacterVoice();
+        console.error('Could not play voice:', error);
+    });
+}
 
 function buildRankingText() {
     var favorites = myPicker.getFavorites();
