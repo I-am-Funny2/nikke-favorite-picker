@@ -206,6 +206,6 @@ var items = [
     {id: 'tia', name: 'Tia', image: 'images/nikke/fullbody/tia.png', imageScale: 1.05},
 
     {id: 'takina-inoue', name: 'Takina Inoue', image: 'images/nikke/fullbody/takina-inoue.png'},
-    {id: 'trony', name: 'Trony', image: 'images/nikke/fullbody/trony.png', imageScale: 1.15, imageY: '10%'},
+    {id: 'trony', name: 'Trony', image: 'images/nikke/fullbody/trony.png', imageScale: 1.25, imageY: '30%'},
     {id: 'velvet', name: 'Velvet', image: 'images/nikke/fullbody/velvet.png'}
 ];
