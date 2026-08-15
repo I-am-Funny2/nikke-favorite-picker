@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NIKKE Favorite Picker</title>
 <style>
 body {
@@ -351,6 +351,65 @@ button:hover {
 #favorites .nikke-image-wrap {
     height: 165px;
 }
+
+/* Mobile layout */
+
+@media (max-width: 636px) {
+    .site-header h1 {
+        font-size: 24px;
+    }
+
+    #container {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    #evaluating {
+        gap: 8px;
+    }
+
+    #evaluating li {
+        width: 160px;
+        height: 280px;
+    }
+
+    #evaluating .nikke-image-wrap {
+        height: 235px;
+    }
+
+    #evaluating .nikke-name {
+        height: 45px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 423px) {
+    #evaluating li {
+        width: 145px;
+        height: 255px;
+    }
+
+    #evaluating .nikke-image-wrap {
+        height: 215px;
+    }
+
+    #evaluating .nikke-name {
+        height: 40px;
+        font-size: 11px;
+    }
+
+    #buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        justify-content: center;
+    }
+
+    #buttons button {
+        margin: 0;
+    }
+}
 </style>
 </head>
 <body>
@@ -430,6 +489,8 @@ var pickerUI = new PickerUI(myPicker, {
         .addClass('nikke-image-wrap');
 
     var image = $('<img>')
+        .attr('loading', 'lazy')
+        .attr('decoding', 'async')
         .attr('src', item.image)
         .attr('alt', item.name);
 
