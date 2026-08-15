@@ -77,5 +77,26 @@ var items = [
     {id: 'soldier-fa', name: 'Soldier FA', image: 'images/nikke/fullbody/soldier-fa.png'},
     {id: 'product-08', name: 'Product 08', image: 'images/nikke/fullbody/product-08.png'},
     {id: 'product-12', name: 'Product 12', image: 'images/nikke/fullbody/product-12.png'},
-    {id: 'idoll-flower', name: 'iDoll Flower', image: 'images/nikke/fullbody/idoll-flower.png'}
+    {id: 'idoll-flower', name: 'iDoll Flower', image: 'images/nikke/fullbody/idoll-flower.png'},
+
+    {id: 'idoll-ocean', name: 'iDoll Ocean', image: 'images/nikke/fullbody/idoll-ocean.png'},
+    {id: 'soldier-ow', name: 'Soldier OW', image: 'images/nikke/fullbody/soldier-ow.png'},
+    {id: 'product-23', name: 'Product 23', image: 'images/nikke/fullbody/product-23.png'},
+    {id: 'idoll-sun', name: 'iDoll Sun', image: 'images/nikke/fullbody/idoll-sun.png'},
+    {id: 'cocoa', name: 'Cocoa', image: 'images/nikke/fullbody/cocoa.png'},
+    {id: 'soda', name: 'Soda', image: 'images/nikke/fullbody/soda.png'},
+    {id: 'mast', name: 'Mast', image: 'images/nikke/fullbody/mast.png'},
+    {id: 'anchor', name: 'Anchor', image: 'images/nikke/fullbody/anchor.png'},
+    {id: 'helm', name: 'Helm', image: 'images/nikke/fullbody/helm.png'},
+    {id: 'helm-aquamarine', name: 'Helm: Aquamarine', image: 'images/nikke/fullbody/helm-aquamarine.png'},
+    {id: 'nero', name: 'Nero', image: 'images/nikke/fullbody/nero.png'},
+    {id: 'biscuit', name: 'Biscuit', image: 'images/nikke/fullbody/biscuit.png'},
+    {id: 'rei', name: 'Rei', image: 'images/nikke/fullbody/rei.png'},
+    {id: 'guilty', name: 'Guilty', image: 'images/nikke/fullbody/guilty.png'},
+    {id: 'sin', name: 'Sin', image: 'images/nikke/fullbody/sin.png'},
+    {id: 'quency', name: 'Quency', image: 'images/nikke/fullbody/quency.png'},
+    {id: 'noise', name: 'Noise', image: 'images/nikke/fullbody/noise.png'},
+    {id: 'volume', name: 'Volume', image: 'images/nikke/fullbody/volume.png'},
+    {id: 'aria', name: 'Aria', image: 'images/nikke/fullbody/aria.png'},
+    {id: 'makima', name: 'Makima', image: 'images/nikke/fullbody/makima.png'}
 ];
