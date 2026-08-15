@@ -115,30 +115,6 @@ button.disabled:hover {
     line-height:1.2;
 }
 
-@media (max-width:636px) {
-    .item-list {
-        line-height:75px;
-    }
-
-    .item-list li {
-        line-height:75px;
-        height:75px;
-        width:75px;
-    }
-}
-
-@media (max-width:423px) {
-    .item-list {
-        line-height:50px;
-    }
-
-    .item-list li {
-        line-height:50px;
-        height:50px;
-        width:50px;
-    }
-}
-
 #evaluating li {
     cursor:pointer;
 }
