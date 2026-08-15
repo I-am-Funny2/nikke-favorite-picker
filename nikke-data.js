@@ -182,5 +182,26 @@ var items = [
     {id: 'mint', name: 'Mint', image: 'images/nikke/fullbody/mint.png'},
     {id: 'misato-katsuragi', name: 'Misato Katsuragi', image: 'images/nikke/fullbody/misato-katsuragi.png'},
     {id: 'moran', name: 'Moran', image: 'images/nikke/fullbody/moran.png'},
-    {id: 'mori', name: 'Mori', image: 'images/nikke/fullbody/mori.png'}
+    {id: 'mori', name: 'Mori', image: 'images/nikke/fullbody/mori.png'},
+
+    {id: 'nayuta', name: 'Nayuta', image: 'images/nikke/fullbody/nayuta.png'},
+    {id: 'pascal', name: 'Pascal', image: 'images/nikke/fullbody/pascal.png'},
+    {id: 'phantom', name: 'Phantom', image: 'images/nikke/fullbody/phantom.png'},
+    {id: 'power', name: 'Power', image: 'images/nikke/fullbody/power.png'},
+    {id: 'prika', name: 'Prika', image: 'images/nikke/fullbody/prika.png'},
+    {id: 'ram', name: 'Ram', image: 'images/nikke/fullbody/ram.png'},
+    {id: 'raven', name: 'Raven', image: 'images/nikke/fullbody/raven.png'},
+    {id: 'red-hood', name: 'Red Hood', image: 'images/nikke/fullbody/red-hood.png'},
+    {id: 'rei-ayanami', name: 'Rei Ayanami', image: 'images/nikke/fullbody/rei-ayanami.png'},
+    {id: 'rei-ayanami-tentative-name', name: 'Rei Ayanami (Tentative Name)', image: 'images/nikke/fullbody/rei-ayanami-tentative-name.png'},
+    {id: 'rem', name: 'Rem', image: 'images/nikke/fullbody/rem.png'},
+    {id: 'rosanna-chic-ocean', name: 'Rosanna: Chic Ocean', image: 'images/nikke/fullbody/rosanna-chic-ocean.png'},
+    {id: 'rouge', name: 'Rouge', image: 'images/nikke/fullbody/rouge.png'},
+    {id: 'sakura-bloom-in-summer', name: 'Sakura: Bloom in Summer', image: 'images/nikke/fullbody/sakura-bloom-in-summer.png'},
+    {id: 'sakura-suzuhara', name: 'Sakura Suzuhara', image: 'images/nikke/fullbody/sakura-suzuhara.png'},
+    {id: 'siren', name: 'Little Mermaid (Siren)', image: 'images/nikke/fullbody/siren.png'},
+    {id: 'snow-crane', name: 'Snow Crane', image: 'images/nikke/fullbody/snow-crane.png'},
+    {id: 'snow-white-heavy-arms', name: 'Snow White: Heavy Arms', image: 'images/nikke/fullbody/snow-white-heavy-arms.png'},
+    {id: 'sora', name: 'Sora', image: 'images/nikke/fullbody/sora.png'},
+    {id: 'tia', name: 'Tia', image: 'images/nikke/fullbody/tia.png'}
 ];
