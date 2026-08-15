@@ -243,7 +243,7 @@ function playCharacterVoice(src, button) {
 
 function buildRankingText() {
     var favorites = myPicker.getFavorites();
-    var lines = ['NIKKE Favorite Ranking', ''];
+    var lines = ['NIKKE Character Ranking', ''];
 
     $.each(favorites, function(index, item) {
         lines.push((index + 1) + '. ' + item.name);
