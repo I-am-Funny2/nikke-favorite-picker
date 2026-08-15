@@ -13,5 +13,11 @@ var items = [
     {id: 'mica', name: 'Mica', image: 'images/nikke/fullbody/mica.png'},
     {id: 'brid', name: 'Brid', image: 'images/nikke/fullbody/brid.png'},
     {id: 'soline', name: 'Soline', image: 'images/nikke/fullbody/soline.png'},
-    {id: 'diesel', name: 'Diesel', image: 'images/nikke/fullbody/diesel.png'}
+    {id: 'diesel', name: 'Diesel', image: 'images/nikke/fullbody/diesel.png'},
+
+    {id: 'centi', name: 'Centi', image: 'images/nikke/fullbody/centi.png'},
+    {id: 'liter', name: 'Liter', image: 'images/nikke/fullbody/liter.png'},
+    {id: 'emma', name: 'Emma', image: 'images/nikke/fullbody/emma.png'},
+    {id: 'vesti', name: 'Vesti', image: 'images/nikke/fullbody/vesti.png'},
+    {id: 'eunhwa', name: 'Eunhwa', image: 'images/nikke/fullbody/eunhwa.png'}
 ];
