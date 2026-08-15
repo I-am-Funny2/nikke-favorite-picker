@@ -53,7 +53,7 @@ var items = [
     {id: 'rupee-winter-shopper', name: 'Rupee: Winter Shopper', image: 'images/nikke/fullbody/rupee-winter-shopper.png', imageScale: 1.27, imageX: '10%', imageY: '2%'},
     {id: 'exia', name: 'Exia', image: 'images/nikke/fullbody/exia.png'},
     {id: 'novel', name: 'Novel', image: 'images/nikke/fullbody/novel.png'},
-    {id: 'snow-white', name: 'Snow White', image: 'images/nikke/fullbody/snow-white.png', imageScale: 1.57, imageX: '3%'},
+    {id: 'snow-white', name: 'Snow White', image: 'images/nikke/fullbody/snow-white.png'},
     {id: 'rapunzel', name: 'Rapunzel', image: 'images/nikke/fullbody/rapunzel.png', imageScale: 1.28, imageX: '3%'},
     {id: 'scarlet', name: 'Scarlet', image: 'images/nikke/fullbody/scarlet.png', imageScale: 1.40, imageX: '6%'},
     {id: 'harran', name: 'Harran', image: 'images/nikke/fullbody/harran.png', imageScale: 1.29},
