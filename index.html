@@ -335,6 +335,18 @@ body {
     color: #eeeeee;
 }
 
+#ranking-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+#copy-status {
+    color: #bdbdc7;
+    font-size: 12px;
+}
+
 button {
     padding: 8px 14px;
     border-radius: 6px;
@@ -499,6 +511,11 @@ button:hover {
 <div id="secondary">
 <h2>Found favorites</h2>
 
+<div id="ranking-actions">
+    <button id="copy-ranking" class="disabled" disabled>Copy Ranking</button>
+    <span id="copy-status" aria-live="polite"></span>
+</div>
+
 <ol id="favorites" class="item-list">
 </ol>
 </div>
@@ -539,6 +556,10 @@ var pickerUI = new PickerUI(myPicker, {
     $('#progress').text(
         ranked + ' of ' + total + ' Nikkes ranked'
     );
+
+    $('#copy-ranking')
+        .prop('disabled', ranked === 0)
+        .toggleClass('disabled', ranked === 0);
 },
 
     getItemElem: function(item, settings) {
@@ -588,6 +609,68 @@ card.append(imageWrap);
 });
 
 pickerUI.initialize();
+
+function buildRankingText() {
+    var favorites = myPicker.getFavorites();
+    var lines = ['NIKKE Favorite Ranking', ''];
+
+    $.each(favorites, function(index, item) {
+        lines.push((index + 1) + '. ' + item.name);
+    });
+
+    return lines.join('\n');
+}
+
+function copyTextToClipboard(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(text);
+    }
+
+    return new Promise(function(resolve, reject) {
+        var textarea = document.createElement('textarea');
+        textarea.value = text;
+        textarea.style.position = 'fixed';
+        textarea.style.opacity = '0';
+
+        document.body.appendChild(textarea);
+        textarea.focus();
+        textarea.select();
+
+        try {
+            var successful = document.execCommand('copy');
+            document.body.removeChild(textarea);
+
+            if (successful) {
+                resolve();
+            } else {
+                reject();
+            }
+        } catch (error) {
+            document.body.removeChild(textarea);
+            reject(error);
+        }
+    });
+}
+
+$('#copy-ranking').on('click', function() {
+    var favorites = myPicker.getFavorites();
+
+    if (favorites.length === 0) {
+        return;
+    }
+
+    copyTextToClipboard(buildRankingText())
+        .then(function() {
+            $('#copy-status').text('Copied!');
+
+            setTimeout(function() {
+                $('#copy-status').text('');
+            }, 1500);
+        })
+        .catch(function() {
+            $('#copy-status').text('Copy failed');
+        });
+});
 
 </script>
 </body>
