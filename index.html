@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="initial-scale=1.0">
-<title>Picker</title>
+<title>NIKKE Favorite Picker</title>
 <style>
 body {
     background:#FFF;
@@ -268,12 +268,90 @@ button.disabled:hover {
 #evaluating li.selected {
     border-color: #ffcc00;
 }
+
+body {
+    background: #101014;
+    color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-header {
+    max-width: 900px;
+    margin: 0 auto 24px;
+    text-align: center;
+}
+
+.site-header h1 {
+    margin-bottom: 8px;
+    font-size: 30px;
+}
+
+.site-header p {
+    color: #bdbdc7;
+    line-height: 1.5;
+}
+
+#progress {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+#secondary h2 {
+    color: #eeeeee;
+}
+
+button {
+    padding: 8px 14px;
+    border-radius: 6px;
+    background: #2c2c34;
+    color: #eeeeee;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #41414c;
+}
+
+#pick {
+    background: #536dfe;
+}
+
+#pick:hover {
+    background: #7185ff;
+}
+
+#favorites {
+    gap: 8px;
+}
+
+#favorites li {
+    width: 120px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+#favorites li img {
+    height: 165px;
+    object-fit: contain;
+    object-position: center bottom;
+}
+
+#favorites .nikke-name {
+    height: 35px;
+    padding: 3px 4px;
+    font-size: 11px;
+}
 </style>
 </head>
 <body>
-<h1>Picker</h1>
-
-<p>You can include any content you want here.</p>
+<header class="site-header">
+    <h1>NIKKE Favorite Picker</h1>
+    <p>
+        Select one or more Nikkes you prefer, then press <strong>Pick</strong>.
+        If you cannot decide, press <strong>Pass</strong>.
+    </p>
+    <p id="progress"></p>
+</header>
 
 <div id="container">
 
@@ -325,6 +403,15 @@ var pickerUI = new PickerUI(myPicker, {
         evaluating: '#evaluating',
         favorites: '#favorites'
     },
+
+    onUpdate: function() {
+    var ranked = this.picker.getFavorites().length;
+    var total = items.length;
+
+    $('#progress').text(
+        ranked + ' of ' + total + ' Nikkes ranked'
+    );
+},
 
     getItemElem: function(item, settings) {
         var card = $('<li></li>');
