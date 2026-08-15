@@ -213,6 +213,11 @@ button.disabled:hover {
     line-height: 1.5;
 }
 
+.picker-help {
+    color: #a9a9b2;
+    font-size: 12px;
+}
+
 #progress {
     color: #ffcc00;
     font-weight: bold;
