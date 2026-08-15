@@ -52,17 +52,9 @@
         this.elem.evaluating.on('click', '.item', function(e) {
             e.preventDefault();
             self.select(this);
-        }).on('dblclick', '.item', function(e) {
-            // Prevent double-clicking from selecting the current item if some other items have been selected
-            e.preventDefault();
-            var selected = self.getSelected();
-            var item = self.getItem(this);
-            if (selected.length === 0 || selected.length === 1 && selected[0] === item) {
-                self.pick([item]);
-            }
         }).on('mousedown', '.item', function(e) {
             e.preventDefault();
-        });
+});
 
         this.elem.pick.on('click', function(e) {
             e.preventDefault();
