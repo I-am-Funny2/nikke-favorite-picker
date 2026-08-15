@@ -35,5 +35,26 @@ var items = [
     {id: 'sugar', name: 'Sugar', image: 'images/nikke/fullbody/sugar.png'},
     {id: 'milk', name: 'Milk', image: 'images/nikke/fullbody/milk.png'},
     {id: 'frima', name: 'Frima', image: 'images/nikke/fullbody/frima.png'},
-    {id: 'julia', name: 'Julia', image: 'images/nikke/fullbody/julia.png'}
+    {id: 'julia', name: 'Julia', image: 'images/nikke/fullbody/julia.png'},
+
+    {id: 'yuni', name: 'Yuni', image: 'images/nikke/fullbody/yuni.png'},
+    {id: 'mihara', name: 'Mihara', image: 'images/nikke/fullbody/mihara.png'},
+    {id: 'privaty', name: 'Privaty', image: 'images/nikke/fullbody/privaty.png'},
+    {id: 'yulha', name: 'Yulha', image: 'images/nikke/fullbody/yulha.png'},
+    {id: 'admi', name: 'Admi', image: 'images/nikke/fullbody/admi.png'},
+    {id: 'guillotine', name: 'Guillotine', image: 'images/nikke/fullbody/guillotine.png'},
+    {id: 'maiden', name: 'Maiden', image: 'images/nikke/fullbody/maiden.png'},
+    {id: 'ludmilla', name: 'Ludmilla', image: 'images/nikke/fullbody/ludmilla.png'},
+    {id: 'alice', name: 'Alice', image: 'images/nikke/fullbody/alice.png'},
+    {id: 'neve', name: 'Neve', image: 'images/nikke/fullbody/neve.png'},
+    {id: 'rupee', name: 'Rupee', image: 'images/nikke/fullbody/rupee.png'},
+    {id: 'yan', name: 'Yan', image: 'images/nikke/fullbody/yan.png'},
+    {id: 'dolla', name: 'Dolla', image: 'images/nikke/fullbody/dolla.png'},
+    {id: 'rupee-winter-shopper', name: 'Rupee: Winter Shopper', image: 'images/nikke/fullbody/rupee-winter-shopper.png'},
+    {id: 'exia', name: 'Exia', image: 'images/nikke/fullbody/exia.png'},
+    {id: 'novel', name: 'Novel', image: 'images/nikke/fullbody/novel.png'},
+    {id: 'snow-white', name: 'Snow White', image: 'images/nikke/fullbody/snow-white.png'},
+    {id: 'rapunzel', name: 'Rapunzel', image: 'images/nikke/fullbody/rapunzel.png'},
+    {id: 'scarlet', name: 'Scarlet', image: 'images/nikke/fullbody/scarlet.png'},
+    {id: 'harran', name: 'Harran', image: 'images/nikke/fullbody/harran.png'}
 ];
