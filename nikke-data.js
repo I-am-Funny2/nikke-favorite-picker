@@ -56,5 +56,26 @@ var items = [
     {id: 'snow-white', name: 'Snow White', image: 'images/nikke/fullbody/snow-white.png', imageScale: 1.55},
     {id: 'rapunzel', name: 'Rapunzel', image: 'images/nikke/fullbody/rapunzel.png', imageScale: 1.24},
     {id: 'scarlet', name: 'Scarlet', image: 'images/nikke/fullbody/scarlet.png', imageScale: 1.40},
-    {id: 'harran', name: 'Harran', image: 'images/nikke/fullbody/harran.png', imageScale: 1.27}
+    {id: 'harran', name: 'Harran', image: 'images/nikke/fullbody/harran.png', imageScale: 1.27},
+
+    {id: 'neon-blue-ocean', name: 'Neon: Blue Ocean', image: 'images/nikke/fullbody/neon-blue-ocean.png'},
+    {id: 'anis-sparkling-summer', name: 'Anis: Sparkling Summer', image: 'images/nikke/fullbody/anis-sparkling-summer.png'},
+    {id: 'isabel', name: 'Isabel', image: 'images/nikke/fullbody/isabel.png'},
+    {id: 'noah', name: 'Noah', image: 'images/nikke/fullbody/noah.png'},
+    {id: 'dorothy', name: 'Dorothy', image: 'images/nikke/fullbody/dorothy.png'},
+    {id: 'rumani', name: 'Rumani', image: 'images/nikke/fullbody/rumani.png'},
+    {id: 'epinel', name: 'Epinel', image: 'images/nikke/fullbody/epinel.png'},
+    {id: 'folkwang', name: 'Folkwang', image: 'images/nikke/fullbody/folkwang.png'},
+    {id: 'modernia', name: 'Modernia', image: 'images/nikke/fullbody/modernia.png'},
+    {id: 'nihilister', name: 'Nihilister', image: 'images/nikke/fullbody/nihilister.png'},
+    {id: 'blanc', name: 'Blanc', image: 'images/nikke/fullbody/blanc.png'},
+    {id: 'noir', name: 'Noir', image: 'images/nikke/fullbody/noir.png'},
+    {id: 'rosanna', name: 'Rosanna', image: 'images/nikke/fullbody/rosanna.png'},
+    {id: 'sakura', name: 'Sakura', image: 'images/nikke/fullbody/sakura.png'},
+    {id: 'ether', name: 'Ether', image: 'images/nikke/fullbody/ether.png'},
+    {id: 'soldier-eg', name: 'Soldier EG', image: 'images/nikke/fullbody/soldier-eg.png'},
+    {id: 'soldier-fa', name: 'Soldier FA', image: 'images/nikke/fullbody/soldier-fa.png'},
+    {id: 'product-08', name: 'Product 08', image: 'images/nikke/fullbody/product-08.png'},
+    {id: 'product-12', name: 'Product 12', image: 'images/nikke/fullbody/product-12.png'},
+    {id: 'idoll-flower', name: 'iDoll Flower', image: 'images/nikke/fullbody/idoll-flower.png'}
 ];
