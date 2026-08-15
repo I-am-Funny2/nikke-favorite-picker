@@ -117,7 +117,7 @@ var items = [
     {id: 'zwei', name: 'Zwei', image: 'images/nikke/fullbody/zwei.png'},
     {id: 'ein', name: 'Ein', image: 'images/nikke/fullbody/ein.png', imageScale: 1.26, imageX: '9%', imageY: '-1%'},
     {id: 'quency-escape-queen', name: 'Quency: Escape Queen', image: 'images/nikke/fullbody/quency-escape-queen.png'},
-    {id: 'flora', name: 'Flora', image: 'images/nikke/fullbody/flora.png'},
+    {id: 'flora', name: 'Flora', image: 'images/nikke/fullbody/flora.png', imageScale: 1.15},
     {id: 'trina', name: 'Trina', image: 'images/nikke/fullbody/trina.png'},
     {id: 'naga', name: 'Naga', image: 'images/nikke/fullbody/naga.png'},
 
@@ -174,7 +174,7 @@ var items = [
     {id: 'kilo', name: 'Kilo', image: 'images/nikke/fullbody/kilo.png'},
     {id: 'kurumi', name: 'Kurumi', image: 'images/nikke/fullbody/kurumi.png'},
     {id: 'label', name: 'Label', image: 'images/nikke/fullbody/label.png', imageScale: 1.05},
-    {id: 'liberalio', name: 'Liberalio', image: 'images/nikke/fullbody/liberalio.png', imageScale: 1.20},
+    {id: 'liberalio', name: 'Liberalio', image: 'images/nikke/fullbody/liberalio.png', imageScale: 1.30},
     {id: 'lily', name: 'Lily', image: 'images/nikke/fullbody/lily.png'},
     {id: 'mana', name: 'Mana', image: 'images/nikke/fullbody/mana.png'},
     {id: 'marciana-marine-study', name: 'Marciana: Marine Study', image: 'images/nikke/fullbody/marciana-marine-study.png'},
