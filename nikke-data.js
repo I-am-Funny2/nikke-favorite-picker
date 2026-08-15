@@ -174,7 +174,7 @@ var items = [
     {id: 'kilo', name: 'Kilo', image: 'images/nikke/fullbody/kilo.png'},
     {id: 'kurumi', name: 'Kurumi', image: 'images/nikke/fullbody/kurumi.png'},
     {id: 'label', name: 'Label', image: 'images/nikke/fullbody/label.png', imageScale: 1.05},
-    {id: 'liberalio', name: 'Liberalio', image: 'images/nikke/fullbody/liberalio.png', imageScale: 1.30},
+    {id: 'liberalio', name: 'Liberalio', image: 'images/nikke/fullbody/liberalio.png', imageScale: 1.40},
     {id: 'lily', name: 'Lily', image: 'images/nikke/fullbody/lily.png'},
     {id: 'mana', name: 'Mana', image: 'images/nikke/fullbody/mana.png'},
     {id: 'marciana-marine-study', name: 'Marciana: Marine Study', image: 'images/nikke/fullbody/marciana-marine-study.png'},
