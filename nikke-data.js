@@ -68,7 +68,7 @@ var items = [
     {id: 'folkwang', name: 'Folkwang', image: 'images/nikke/fullbody/folkwang.png'},
     {id: 'modernia', name: 'Modernia', image: 'images/nikke/fullbody/modernia.png', imageScale: 1.20},
     {id: 'nihilister', name: 'Nihilister', image: 'images/nikke/fullbody/nihilister.png', imageScale: 1.42},
-    {id: 'blanc', name: 'Blanc', image: 'images/nikke/fullbody/blanc.png', imageScale: 1.11},
+    {id: 'blanc', name: 'Blanc', image: 'images/nikke/fullbody/blanc.png', imageScale: 1.08},
     {id: 'noir', name: 'Noir', image: 'images/nikke/fullbody/noir.png'},
     {id: 'rosanna', name: 'Rosanna', image: 'images/nikke/fullbody/rosanna.png'},
     {id: 'sakura', name: 'Sakura', image: 'images/nikke/fullbody/sakura.png'},
