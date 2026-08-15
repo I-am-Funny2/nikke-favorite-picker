@@ -17,10 +17,6 @@ a:active, a:hover {
     color:#ACF;
 }
 
-.info {
-    font-weight:bold;
-}
-
 button {
     font-family:inherit;
     cursor:pointer;
