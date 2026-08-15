@@ -119,5 +119,26 @@ var items = [
     {id: 'quency-escape-queen', name: 'Quency: Escape Queen', image: 'images/nikke/fullbody/quency-escape-queen.png'},
     {id: 'flora', name: 'Flora', image: 'images/nikke/fullbody/flora.png'},
     {id: 'trina', name: 'Trina', image: 'images/nikke/fullbody/trina.png'},
-    {id: 'naga', name: 'Naga', image: 'images/nikke/fullbody/naga.png'}
+    {id: 'naga', name: 'Naga', image: 'images/nikke/fullbody/naga.png'},
+
+    {id: 'rapi-red-hood', name: 'Rapi: Red Hood', image: 'images/nikke/fullbody/rapi-red-hood.png'},
+    {id: 'anis-star', name: 'Anis: Star', image: 'images/nikke/fullbody/anis-star.png'},
+    {id: 'neon-vision-eye', name: 'Neon: Vision Eye', image: 'images/nikke/fullbody/neon-vision-eye.png'},
+    {id: 'delta-ninja-thief', name: 'Delta: Ninja Thief', image: 'images/nikke/fullbody/delta-ninja-thief.png'},
+    {id: 'quiry', name: 'Quiry', image: 'images/nikke/fullbody/quiry.png'},
+    {id: 'k', name: 'K', image: 'images/nikke/fullbody/k.png'},
+    {id: 'd-killer-wife', name: 'D: Killer Wife', image: 'images/nikke/fullbody/d-killer-wife.png'},
+    {id: 'soline-frost-ticket', name: 'Soline: Frost Ticket', image: 'images/nikke/fullbody/soline-frost-ticket.png'},
+    {id: 'diesel-winter-sweets', name: 'Diesel: Winter Sweets', image: 'images/nikke/fullbody/diesel-winter-sweets.png'},
+    {id: 'emma-tactical-upgrade', name: 'Emma: Tactical Upgrade', image: 'images/nikke/fullbody/emma-tactical-upgrade.png'},
+    {id: 'vesti-tactical-upgrade', name: 'Vesti: Tactical Upgrade', image: 'images/nikke/fullbody/vesti-tactical-upgrade.png'},
+    {id: 'eunhwa-tactical-upgrade', name: 'Eunhwa: Tactical Upgrade', image: 'images/nikke/fullbody/eunhwa-tactical-upgrade.png'},
+    {id: 'laplace-ultimate-hero', name: 'Laplace: Ultimate Hero', image: 'images/nikke/fullbody/laplace-ultimate-hero.png'},
+    {id: 'maxwell-ordinary-mechanic', name: 'Maxwell: Ordinary Mechanic', image: 'images/nikke/fullbody/maxwell-ordinary-mechanic.png'},
+    {id: 'eh', name: 'E.H.', image: 'images/nikke/fullbody/eh.png'},
+    {id: 'milk-blooming-bunny', name: 'Milk: Blooming Bunny', image: 'images/nikke/fullbody/milk-blooming-bunny.png'},
+    {id: 'mihara-bonding-chain', name: 'Mihara: Bonding Chain', image: 'images/nikke/fullbody/mihara-bonding-chain.png'},
+    {id: 'guillotine-winter-slayer', name: 'Guillotine: Winter Slayer', image: 'images/nikke/fullbody/guillotine-winter-slayer.png'},
+    {id: 'maiden-ice-rose', name: 'Maiden: Ice Rose', image: 'images/nikke/fullbody/maiden-ice-rose.png'},
+    {id: 'tove', name: 'Tove', image: 'images/nikke/fullbody/tove.png'}
 ];
