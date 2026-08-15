@@ -161,5 +161,26 @@ var items = [
     {id: 'cinderella-crystal-wave', name: 'Cinderella: Crystal Wave', image: 'images/nikke/fullbody/cinderella-crystal-wave.png'},
     {id: 'claire-redfield', name: 'Claire Redfield', image: 'images/nikke/fullbody/claire-redfield.png'},
     {id: 'clay', name: 'Clay', image: 'images/nikke/fullbody/clay.png'},
-    {id: 'crust', name: 'Crust', image: 'images/nikke/fullbody/crust.png'}
+    {id: 'crust', name: 'Crust', image: 'images/nikke/fullbody/crust.png'},
+
+    {id: 'dorothy-serendipity', name: 'Dorothy: Serendipity', image: 'images/nikke/fullbody/dorothy-serendipity.png'},
+    {id: 'elegg', name: 'Elegg', image: 'images/nikke/fullbody/elegg.png'},
+    {id: 'elegg-boom-and-shock', name: 'Elegg: Boom and Shock', image: 'images/nikke/fullbody/elegg-boom-and-shock.png'},
+    {id: 'emilia', name: 'Emilia', image: 'images/nikke/fullbody/emilia.png'},
+    {id: 'eve', name: 'EVE', image: 'images/nikke/fullbody/eve.png'},
+    {id: 'grave', name: 'Grave', image: 'images/nikke/fullbody/grave.png'},
+    {id: 'himeno', name: 'Himeno', image: 'images/nikke/fullbody/himeno.png'},
+    {id: 'jill-valentine', name: 'Jill Valentine', image: 'images/nikke/fullbody/jill-valentine.png'},
+    {id: 'kilo', name: 'Kilo', image: 'images/nikke/fullbody/kilo.png'},
+    {id: 'kurumi', name: 'Kurumi', image: 'images/nikke/fullbody/kurumi.png'},
+    {id: 'label', name: 'Label', image: 'images/nikke/fullbody/label.png'},
+    {id: 'liberalio', name: 'Liberalio', image: 'images/nikke/fullbody/liberalio.png'},
+    {id: 'lily', name: 'Lily', image: 'images/nikke/fullbody/lily.png'},
+    {id: 'mana', name: 'Mana', image: 'images/nikke/fullbody/mana.png'},
+    {id: 'marciana-marine-study', name: 'Marciana: Marine Study', image: 'images/nikke/fullbody/marciana-marine-study.png'},
+    {id: 'mari-makinami-illustrious', name: 'Mari Makinami Illustrious', image: 'images/nikke/fullbody/mari-makinami-illustrious.png'},
+    {id: 'mint', name: 'Mint', image: 'images/nikke/fullbody/mint.png'},
+    {id: 'misato-katsuragi', name: 'Misato Katsuragi', image: 'images/nikke/fullbody/misato-katsuragi.png'},
+    {id: 'moran', name: 'Moran', image: 'images/nikke/fullbody/moran.png'},
+    {id: 'mori', name: 'Mori', image: 'images/nikke/fullbody/mori.png'}
 ];
