@@ -77,7 +77,6 @@ button.disabled:hover {
     background: #536dfe;
     color: #FFF;
     font-size: larger;
-    font-weight: bold;
     width: 6em;
     border-radius: 5px;
     margin-right: 10px;
@@ -89,10 +88,6 @@ button.disabled:hover {
 
 #pick:hover {
     background: #7185ff;
-}
-
-#favorites li {
-    cursor:default;
 }
 
 #evaluating, #buttons {
@@ -177,8 +172,6 @@ button.disabled:hover {
 }
 
 #favorites .collab-badge {
-    top: 6px;
-    right: 6px;
     padding: 3px 5px;
     font-size: 9px;
 }
@@ -242,10 +235,6 @@ button.disabled:hover {
     font-weight: bold;
 }
 
-#secondary h2 {
-    color: #eeeeee;
-}
-
 #ranking-actions {
     display: flex;
     align-items: center;
@@ -304,8 +293,6 @@ button.disabled:hover {
 
     font-size: 16px;
     line-height: 1;
-
-    cursor: pointer;
 }
 
 .voice-button:hover {
@@ -335,6 +322,7 @@ button.disabled:hover {
     border-radius: 8px;
     counter-increment: favorite-rank;
     position: relative;
+    cursor: default;
 }
 
 #favorites .nikke-name {
